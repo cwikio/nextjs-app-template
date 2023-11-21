@@ -1,18 +1,17 @@
-# Create T3 App
+# Create T3 App with NextJS, Clerk, Shadcn UI, TRPC, Tailwind
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
-
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This is a raw a tamplete for an app that utilizes the above technologies.
+After custom clerk signin/up page, there is only a single page, `pages/index.tsx` that contains clerk UserButton and shadcn button.
+Everything is configured for Pages folder, not App folder (see https://nextjs.org for more detials)
 
 If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
+- [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [Clerk](https://clerk.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
 
 ## Learn More
 
