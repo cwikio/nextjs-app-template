@@ -1,6 +1,7 @@
 import { UserButton } from "@clerk/nextjs";
 import Head from "next/head";
 import Link from "next/link";
+import { Button } from "~/components/ui/Button";
 
 import { api } from "~/utils/api";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="flex min-h-screen  items-center justify-center ">
         <div className="container flex items-center justify-center  ">
           this is main page
+          <Button />
           <UserButton afterSignOutUrl="/" />
         </div>
       </main>
