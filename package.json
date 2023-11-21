@@ -18,6 +18,8 @@
     "@trpc/react-query": "^10.37.1",
     "@trpc/server": "^10.37.1",
     "@turbo/codemod": "^1.10.16",
+    "add": "^2.0.6",
+    "button": "^1.1.1",
     "init": "^0.1.2",
     "next": "^14.0.0",
     "react": "18.2.0",
