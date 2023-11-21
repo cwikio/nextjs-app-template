@@ -1,12 +1,8 @@
 import { UserButton } from "@clerk/nextjs";
 import Head from "next/head";
-import Link from "next/link";
-import { Button } from "~/components/ui/Button";
-
-import { api } from "~/utils/api";
+import { Button } from "@components/ui/Button";
 
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "from tRPC" });
 
   return (
     <>
