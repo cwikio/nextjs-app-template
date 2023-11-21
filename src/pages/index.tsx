@@ -16,12 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen  items-center justify-center ">
-        <div className="container flex items-center justify-center  ">
-          this is main page
-          <Button />
+        <div className="container flex flex-col gap-3 items-center justify-center  ">
+          <p>this is main page</p>
+          <Button>shadcn button</Button>
           <UserButton afterSignOutUrl="/" />
         </div>
       </main>
     </>
-  );
+  )
 }
