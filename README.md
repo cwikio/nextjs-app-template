@@ -2,9 +2,10 @@
 
 This is a raw a tamplete for an app that utilizes the above technologies.
 After custom clerk signin/up page, there is only a single page, `pages/index.tsx` that contains clerk UserButton and shadcn button.
-Everything is configured for Pages folder, not App folder (see https://nextjs.org for more detials)
+Everything is configured for Pages folder, not App folder (see https://nextjs.org for more detials).
+To make it work, you need to create a `.env.local` as outlined in the `.env.example` file.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+If you are not familiar with the different technologies used in this project, please refer to the respective docs.
 
 - [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 - [Next.js](https://nextjs.org)
